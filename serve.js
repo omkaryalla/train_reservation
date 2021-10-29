@@ -52,6 +52,6 @@ const server = http.createServer((req, res) => {
     });
 });
 
-server.listen(1234, "localhost", () => {
-    console.log("Listening on port 1234");
+server.listen(8080, "0.0.0.0", () => {
+    console.log("Listening on port 8080");
 });
